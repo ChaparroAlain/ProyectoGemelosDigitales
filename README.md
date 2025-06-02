@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ChaparroAlain/Practica-5_AnalisisDeSistemasBiologicos_Chaparro21212147&project=https://drive.mathworks.com/sharing/f9f549bd-f45b-4fcb-9adf-844232dfc488)
 
-# Gemelos Digitales. Práctica 5: Analisis de sistemas biologicos [Chaparro21212147]
+# Gemelos Digitales. Proyecto final [Chaparro21212147]
 
 ## Autor
 Chaparro Zamora Alain Yahir
@@ -8,20 +8,23 @@ Chaparro Zamora Alain Yahir
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: l21212147@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementó un modelo dinámico tridimensional para representar la interacción entre células normales, células tumorales y células efectoras del sistema inmunológico. Se utilizaron funciones en MATLAB para simular distintos escenarios dinámicos: atractores caóticos, órbitas periódicas, ciclos límite (internos y externos), y convergencia hacia puntos de equilibrio. Además, se analizaron estos comportamientos tanto en condiciones sin tratamiento como con tratamiento, aplicando una fuerza inmunológica modelada con el parámetro rho1. Posteriormente, se calcularon los puntos de equilibrio del sistema utilizando álgebra simbólica y se obtuvo la matriz Jacobiana para cada uno de ellos. A través de los autovalores de la Jacobiana, se determinó la estabilidad local de cada punto de equilibrio. Se concluyó que el comportamiento más fisiológicamente relevante es la convergencia hacia un punto de equilibrio, ya que representa un estado clínicamente controlado, semejante a una remisión o equilibrio homeostático del sistema biológico.
+Este proyecto presenta el desarrollo y análisis de un modelo dinámico que representa la interacción de tres variables fisiológicas a lo largo del tiempo, utilizando un enfoque basado en datos experimentales. El modelo se construyó mediante un sistema de ecuaciones diferenciales no lineales con seis parámetros, denotados como rho_1 a rho_6, cada uno correspondiente a una tasa específica de interacción o cambio interno entre las variables. Se utilizaron datos experimentales recolectados durante un cierto periodo para ajustar el modelo mediante regresión no lineal. Las variables, representadas como x(t), y(t) y z(t), evolucionan en función de términos como xy, xyz y yz, los cuales modelan procesos como activación, supresión o crecimiento. El proceso de ajuste del modelo arrojó resultados altamente satisfactorios, con un coeficiente de determinación de R^2 = 0.9998, lo que indica una excelente concordancia con los datos observados. Todos los parámetros estimados fueron estadísticamente significativos, con intervalos de confianza estrechos y valores p muy bajos. Además, el análisis de la matriz Jacobiana y los puntos de equilibrio reveló la existencia de dos soluciones estacionarias, proporcionando información relevante sobre el comportamiento a largo plazo del sistema. Se implementó también una simulación extendida al doble del tiempo original (modelo 2T), la cual demostró que el modelo es estable y capaz de realizar predicciones confiables más allá del rango de datos inicial. Finalmente, se representó el sistema mediante un esquema de gemelo digital, el cual permite simular su comportamiento dinámico bajo distintas condiciones iniciales o variaciones en los parámetros.
+Este trabajo evidencia el potencial del modelado matemático como herramienta para representar y analizar sistemas fisiológicos complejos, incluso sin conocimiento previo del contexto biológico, y sienta las bases para futuras aplicaciones en simulación biomédica y desarrollo de gemelos digitales más avanzados.
 
 
 ## Objetivos específicos
-1.-Leer y definir los parámetros del modelo biológico en MATLAB para representar las interacciones entre poblaciones celulares.
-2.-Simular distintos comportamientos dinámicos (atractor caótico, órbita periódica, ciclos límite internos y externos) bajo diferentes condiciones iniciales.
-3.-Analizar el comportamiento del sistema con y sin tratamiento inmunológico, a través de la modificación del parámetro rho1.
-4.-Implementar versiones del modelo tanto normalizadas como no normalizadas para observar diferencias en la dinámica del sistema.
-5.-Programar la resolución del sistema de ecuaciones diferenciales mediante integración numérica utilizando métodos de Runge-Kutta.
-6.-Generar gráficas temporales y tridimensionales para visualizar la evolución del sistema a lo largo del tiempo.
-7.-Calcular los puntos de equilibrio simbólicamente con funciones de álgebra en MATLAB.
-8.-Determinar la matriz Jacobiana en cada punto de equilibrio y calcular sus autovalores para analizar su estabilidad local.
-9.-Evaluar cómo varían los puntos de equilibrio al cambiar el parámetro de tratamiento (rho1) y la interacción entre células (a12).
-10.-Identificar y justificar cuál de los comportamientos dinámicos observados es el más representativo desde el punto de vista fisiológico y clínico.
+1.-Importar y organizar datos experimentales recolectados durante un periodo de 63 días para su posterior análisis computacional.
+2.-Aplicar técnicas de suavizado de datos para reducir el ruido experimental y facilitar el ajuste preciso del modelo.
+3.-Formular un sistema de ecuaciones diferenciales no lineales que represente la dinámica temporal de tres variables fisiológicas interdependientes.
+4.-Estimar los parámetros del modelo mediante regresión no lineal basada en datos experimentales suavizados.
+5.-Evaluar la calidad del ajuste del modelo utilizando métricas estadísticas como el coeficiente de determinación y el AIC corregido.
+6.-Analizar la sensibilidad del sistema mediante el cálculo de la matriz Jacobiana, para identificar la influencia de cada variable sobre las demás.
+7.-Determinar los puntos de equilibrio del sistema, tanto triviales como no triviales, a partir del análisis algebraico de las ecuaciones del modelo.
+8.-Realizar simulaciones extendidas (modelo 2T) para comprobar la estabilidad y comportamiento predictivo del sistema más allá del intervalo original de datos.
+9.-Representar gráficamente los resultados del modelo, incluyendo comparaciones entre los datos observados, suavizados y simulados.
+10.-Diseñar un esquema conceptual tipo gemelo digital, que ilustra la estructura del modelo y las relaciones entre variables mediante ecuaciones generales con parámetros simbólicos.
+
+
 
 ## Docente
 Dr. Paul A. Valle
