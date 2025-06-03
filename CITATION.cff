@@ -1,32 +1,26 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
-title: Matlab
-message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
+title: Proyecto Final - Gemelos Digitales
+message: >
+  If you use this software, please cite it using the metadata from this file.
 type: software
 authors:
-  - given-names: Alain Yahir 
+  - given-names: Alain Yahir
     family-names: Chaparro Zamora
     email: L21212147@tectijuana.edu.mx
-    affiliation: 'Tecnológico Nacional de México '
+    affiliation: Tecnológico Nacional de México, Instituto Tecnológico de Tijuana
 identifiers:
   - type: url
-    value: >-
-https://github.com/ChaparroAlain/ProyectoGemelosDigitales.git
-description: Projecto_Final_Chaparro21212147
-abstract: |2-
-   Tecnologico Nacional de México 
-   Instituto Tecnologico de Tijuana
-   Ingeniería Biomédica 
-   Gemelos Digitales
-   Projecto Final
+    value: https://github.com/ChaparroAlain/ProyectoGemelosDigitales.git
+description: Proyecto final de la materia de Ingeniería Biomédica: Gemelos Digitales.
+abstract: >
+  Tecnológico Nacional de México  
+  Instituto Tecnológico de Tijuana  
+  Ingeniería Biomédica  
+  Proyecto Final sobre Gemelos Digitales
 keywords:
-  - Poblacion
-  - Analisis
-  - Sistemas dinamicos
+  - Población
+  - Análisis
+  - Sistemas dinámicos
   - Matriz jacobiana
-  - Regresion no lineal
+  - Regresión no lineal
 license: BSD-2-Clause
