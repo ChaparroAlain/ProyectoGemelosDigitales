@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Matlab
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alain Yahir 
+    family-names: Chaparro Zamora
+    email: L21212147@tectijuana.edu.mx
+    affiliation: 'Tecnológico Nacional de México '
+identifiers:
+  - type: url
+    value: >-
+https://github.com/ChaparroAlain/Practica-5_AnalisisDeSistemasBiologicos_Chaparro21212147
+description: Practica-5_AnalisisDeSistemasBiologicos_Chaparro21212147
+abstract: |2-
+   Tecnologico Nacional de México 
+   Instituto Tecnologico de Tijuana
+   Ingeniería Biomédica 
+   Gemelos Digitales
+   Practica-5_AnalisisDeSistemasBiologicos
+keywords:
+  - Poblacion
+  - Analisis
+  - Sistemas dinamicos
+  - Matriz jacobiana
+  - Estabilidad local
+license: BSD-2-Clause
