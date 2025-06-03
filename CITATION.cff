@@ -15,18 +15,18 @@ authors:
 identifiers:
   - type: url
     value: >-
-https://github.com/ChaparroAlain/Practica-5_AnalisisDeSistemasBiologicos_Chaparro21212147
-description: Practica-5_AnalisisDeSistemasBiologicos_Chaparro21212147
+https://github.com/ChaparroAlain/ProyectoGemelosDigitales.git
+description: Projecto_Final_Chaparro21212147
 abstract: |2-
    Tecnologico Nacional de México 
    Instituto Tecnologico de Tijuana
    Ingeniería Biomédica 
    Gemelos Digitales
-   Practica-5_AnalisisDeSistemasBiologicos
+   Projecto Final
 keywords:
   - Poblacion
   - Analisis
   - Sistemas dinamicos
   - Matriz jacobiana
-  - Estabilidad local
+  - Regresion no lineal
 license: BSD-2-Clause
